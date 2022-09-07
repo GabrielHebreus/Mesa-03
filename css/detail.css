@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.size1
+{
+width: 100%;
+height: 28px;
+background-color: #1CD1B0;
+}
+
+.supersize
+{
+width: 100%;
+height: 101px;
+background-color: #00669F;
+}
+
+.supersize h1 
+{
+font-size: 60px;
+font-weight: 400px;
+line-height: 70px;
+color: #FFFFFF;
+padding: 20px;
+padding-left:30px ;
+text-align: left;
+font-family: roboto;
+}
+
+
+body
+{
+background-image: url(/bg\ 1.png);
+background-repeat: no-repeat;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+} 
+
+section 
+{
+
+
+width: 546px;
+height: 456;
+margin-top: 100px;
+margin-bottom: 100px;
+border-radius: 45px;
+background-color: #F3F3F3;
+flex-direction: column;
+
+}
+
+section .Arlequina
+{border-radius: 50%;
+margin-top: -60px;
+overflow: visible
+
+}
+
+section h1 
+{
+font-weight: 192px;
+line-height: 40px;
+font-family: 'ROBOTO';
+font-style: normal;
+font-size: 32px;
+color: #2C0187;
+line-height: 32px
+;
+}
+
+section .coraçao
+{
+display: flex;
+margin-top: -35px;
+margin-left: 12px; 
+}
+
+section p 
+{
+color: #222222;
+font-family: italic,;
+font-weight: 400px;
+font-size: 17px;
+line-height: 19px;
+margin-top: 12px;
+margin-left: 12px;
+margin-right: 12px;
+text-align: justify;
+}
+
+
+
+.iconos 
+{
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+.voltar 
+{
+width: 546px;
+height: 87px;
+background-color: #2C0187;
+margin-top: 15px;
+border-bottom-right-radius: 45px;
+border-bottom-left-radius: 45px;
+}
+
+a
+{
+font-weight: 193PX;
+line-height: 23px;
+font-family: 'ROBOTO';
+font-style: normal;
+font-size: 20px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+padding: 5%;
+text-decoration: none;
+}
+
+
+footer
+{
+    width: 100%;
+    height: 61px;
+    background-color: #00669F;
+}
+
+.FINAL 
+{
+color:#FFF9F9;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+padding-top: 3%;
+
+}
