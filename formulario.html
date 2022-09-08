@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 14</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/formulario.css" />
+</head>
+
+<body>
+    <h4>20% de desconto em todos os produtos</h4>
+    <header>
+        <img class="logo" src="./img/logo.svg" alt="logo">
+        <h1>Loja dos Herois</h1>
+    </header>
+    <div class="sub-header">
+        <a href="./contato.html">Contato</a>
+        <a href="./registro.html">Registre-se</a>
+        <a href="./login.html">login</a>
+    </div>
+    <main>
+        
+
+        <div id="caixa">
+             <div class="texto">  
+                    <h2 >Adicionar seu super-héroi</h2> <br>
+                    <p>Adicione seu personagem favorito completando as informações</p>
+            </div>
+            
+            <form action="">
+                <div class="nome">
+                    <label for="">Nome</label>
+                    <input type="text" placeholder="">
+                </div>
+
+                <div class="data">
+                    <label for="">Data de Nascimento</label>
+                    <input type="date" placeholder="">
+                </div>
+
+                <div class="descricao">
+                    <textarea placeholder="  Descrição" rows="19" cols="40"></textarea>
+                </div>
+
+                <div class="especie"></div>
+                <label for="">Espécie</label>
+                <input type="text" placeholder="">
+
+
+                <div class="foto"></div>
+                <label for="">Adicionar foto</label>
+                <input type="file">
+                    
+                <div class="inner_box">
+                        <div class="poderes">
+
+                            <label for="">Poderes</label><br>
+                            <input type="checkbox" name="poder"><label>Voar</label> <br>
+                            <input type="checkbox" name="poder"><label>Super Inteligência</label> <br>
+                            <input type="checkbox" name="poder"><label>Vista de raio laser</label> <br>
+                            <input type="checkbox" name="poder"><label>Super rico</label> <br>
+
+                           
+                            
+                        </div>
+                        <div class="personagem">
+                    
+                            <label for="">Tipo de Personagem</label><br>
+                            <input type="radio" name="personagem"><label>Héroi / Heroína</label> <br>
+                            <input type="radio" name="personagem"><label>Vilão / Vilã </label>
+                        </div>
+                </div>
+
+            </form>
+            <div class="botao">
+
+            </div> 
+
+        </div>
+
+    </main>
+    <footer>
+        <h3>Todos os direitos resevados a Mesa 03 Front-End I</h3>
+    </footer>
+</body>
+
+</html>
