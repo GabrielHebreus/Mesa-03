@@ -66,6 +66,10 @@ h1 {
     color: #f3f3f3;
 }
 
+.texto{
+    margin-left: 100px;
+}
+
 .texto h2 {
     margin: 0%;
 }
@@ -163,9 +167,6 @@ button:hover {
     flex-direction: column;
     flex-wrap: wrap;
 
-
-
-
 }
 
 .nome {
@@ -174,6 +175,8 @@ button:hover {
     height: 102px;
     left: 366px;
     top: 290px;
+
+
 }
 
 .nome input {
@@ -205,9 +208,7 @@ button:hover {
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15.3407px;
 }
-.descrição{
 
-}
 
 textarea {
     width: 343px;
@@ -216,7 +217,7 @@ textarea {
     top: 559px;
     border-radius: 15.34px;
     display: flex;
-    
+
 }
 
 .especie {
@@ -226,7 +227,7 @@ textarea {
     top: 290px;
 }
 
-.especie input {
+.especie select {
     box-sizing: border-box;
     width: 342px;
     height: 63px;
@@ -242,6 +243,16 @@ textarea {
     height: 91px;
     left: 730px;
     top: 422px;
+}
+
+#file{
+  
+    width: 223px;
+    height: 32px;
+    left: 730px;
+    top: 481px;
+    background: #CECECE;
+    border-radius: 5px;
 }
 
 .inner_box {
@@ -271,8 +282,29 @@ textarea {
 .botao {
     width: 466px;
     height: 87px;
-    left: 487px;
+    left: 150px;
     top: 911px;
     border-radius: 23.01px;
+    background: #1CD1B0;
+    margin-left: -250px;
+
+}
+.botao:hover{
+    background-color:  #001D2D;;
 }
 
+
+.form1 {
+    margin-left: 95px;
+    margin-bottom: 150px;
+    margin-top: 60px;
+}
+
+.form2 {
+    margin-top: 125px;
+    
+}
+
+.inner_box {
+    margin-top: 85px;
+}
