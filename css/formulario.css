@@ -159,7 +159,9 @@ button:hover {
     background-color: #00669F;
     border-radius: 49.0px;
     margin-bottom: 10%;
-    column-count: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 
 
@@ -203,6 +205,9 @@ button:hover {
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15.3407px;
 }
+.descrição{
+
+}
 
 textarea {
     width: 343px;
@@ -211,7 +216,7 @@ textarea {
     top: 559px;
     border-radius: 15.34px;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .especie {
