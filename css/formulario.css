@@ -66,17 +66,6 @@ h1 {
     color: #f3f3f3;
 }
 
-.texto{
-    margin-left: 100px;
-}
-
-.texto h2 {
-    margin: 0%;
-}
-
-.texto p {
-    margin: 0;
-}
 
 form {
     color: #f3f3f3
@@ -241,25 +230,24 @@ textarea {
 .foto {
     width: 369px;
     height: 91px;
-    left: 730px;
-    top: 422px;
+    position: relative;
+    top: 5px;
 }
 
-#file{
-  
-    width: 223px;
+#file {
+
+    width: 264px;
     height: 32px;
     left: 730px;
     top: 481px;
-    background: #CECECE;
     border-radius: 5px;
 }
 
 .inner_box {
+    position: relative;
     width: 343px;
     height: 312px;
-    left: 732px;
-    top: 559px;
+    top: 18px;
 
 }
 
@@ -280,31 +268,77 @@ textarea {
 }
 
 .botao {
+    position: relative;
     width: 466px;
     height: 87px;
-    left: 150px;
-    top: 911px;
     border-radius: 23.01px;
     background: #1CD1B0;
-    margin-left: -250px;
+    top: 220px;
+    right: 321px;
+
+
 
 }
-.botao:hover{
-    background-color:  #001D2D;;
+
+.botao h1 {
+    color: #000000;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #001D2D;
+    ;
+}
+
+.botao:hover h1 {
+    color: #f3f3f3
 }
 
 
 .form1 {
-    margin-left: 95px;
-    margin-bottom: 150px;
-    margin-top: 60px;
+    position: relative;
+    left: 104px;
+    top: 62px;
 }
 
 .form2 {
-    margin-top: 125px;
+    position: relative;
+    top: 174px;
+    right: 100px;
+
+}
+
+
+
+.texto {
+    position: relative;
+    left: 230px;
+}
+
+.texto h1 {
+    font-weight: 400;
+    line-height: 47px;
+    color: #f3f3f3;
+}
+
+.texto h3 {
+    line-height: 14px;
+    font-size: 20px;
+    color: #FFFFFF;
     
 }
 
-.inner_box {
-    margin-top: 85px;
+label {
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#linha{
+    width: 345px;
+    border: 0.5px solid ;
+    color:#FFFFFF;
+    bottom:17px;
+    position: relative;
 }
