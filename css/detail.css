@@ -34,13 +34,10 @@ font-family: 'Roboto';
 }
 
 
-body
-{
 
-}
 
 main
-{   
+{   position: relative;
     background-image: url(/img/Background/background.svg);
     background-repeat: no-repeat;
     display: flex;
@@ -50,7 +47,7 @@ main
 section 
 {
 
-
+position: relative;
 width: 546px;
 height: 456;
 margin-top: 100px;
@@ -62,7 +59,8 @@ flex-direction: column;
 }
 
 section .Arlequina
-{border-radius: 50%;
+{
+border-radius: 50%;
 margin-top: -60px;
 overflow: visible
 
