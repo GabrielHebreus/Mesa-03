@@ -35,19 +35,26 @@ font-family: 'Roboto';
 
 
 
-
-main
-{   position: relative;
-    background-image: url(/img/Background/background.svg);
-    background-repeat: no-repeat;
+.background{
+    position:relative;
     display: flex;
     justify-content: center;
+    background-size: cover;
+    height:117.90vh;
+    
+}
+main
+{   
+    position:relative;
+    display: flex;
+    justify-content: center;
+    
 } 
 
 section 
 {
 
-position: relative;
+position: absolute;
 width: 546px;
 height: 456;
 margin-top: 100px;
@@ -134,9 +141,11 @@ text-decoration: none;
 
 footer
 {   
+    
     width: 100%;
-    height: 61px;
+    height: 9.76vh;
     background-color: #00669F;
+    
 }
 
 .FINAL 
